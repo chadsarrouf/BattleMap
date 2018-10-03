@@ -1,0 +1,52 @@
+#MapContainer {
+    background-image: url('https://i.redditmedia.com/0ckTSXxcxbEKxqZk4IA_Ma8YlfXKd_iTV2HqtYsj7JI.jpg?w=593&s=d897a078a38cc6261215e956430a6f1a');
+    background-size: 100% 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(70, 213, 36);
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.btn--centered {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.sidebarRow {
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: rgba(70, 213, 36, 0.1)
+}
+
+.btn__text {
+    margin: 0;
+    line-height: 28px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(70, 213, 36);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.row {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+}
